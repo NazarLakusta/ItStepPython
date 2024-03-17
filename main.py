@@ -2,12 +2,12 @@ from random import *
 
 class Student:
 
-    def __init__(self,name):
+    def __init__(self,name,age):
         self.name = name
-
+        self.age = age
         #радість
         self.gladness = 50
-
+        self.country = "Ukraine"
         #прогрес в розвитку
         self.progress = 0
 
@@ -74,6 +74,7 @@ class Student:
 
 Artem = Student("Artem Sigma")
 
+Nazar = Student("Nazar Sigma")
 
 
 for day in range(365):
@@ -84,3 +85,12 @@ for day in range(365):
     Artem.live(day)
 
 
+print("\n\n\n\n")
+print("////////////////////////////////")
+print("Naaazaarrr")
+for day in range(365):
+
+    if Nazar.alive == False:
+        break
+
+    Nazar.live(day)
