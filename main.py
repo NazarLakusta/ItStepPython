@@ -74,7 +74,7 @@ class Student:
 
 Artem = Student("Artem Sigma")
 
-Nazar = Student("Nazar Sigma")
+Nazar = ("Nazar Sigma")
 
 
 for day in range(365):

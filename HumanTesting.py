@@ -41,7 +41,7 @@ veronika = Human("Veronika",12)
 anna = Human("Anna",13)
 maksym_K = Human("Maksym",12)
 alex = Human("Alex",15)
-artem = Human("Artem SIIIGGGMAAAAAAAAAAAA!!!!!!!!!!!!!!!",15)
+artem = Human("Artem SIIIGGGMAAAAAAAAAAAA!!!!!!!!!!!!!!! on the roof",15)
 
 zhiguli_7 = Auto("Lada","2107","cherry")
 
